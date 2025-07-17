@@ -521,7 +521,7 @@ svg.primary-color-500 {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #87559c;
+  border-top-color: var(--primary-color);
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -535,7 +535,7 @@ svg.primary-color-500 {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #a07caf;
+  border-top-color: var(--primary-color);
   -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
 }
@@ -549,7 +549,7 @@ svg.primary-color-500 {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #a99baf;
+  border-top-color: var(--primary-color);
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
