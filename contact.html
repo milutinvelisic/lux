@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 
 <head>
   <title>Bliss - Wedding Planners HTML Website Template</title>
@@ -21,6 +22,7 @@
 
   <!-- Vendor-specific CSS (e.g., plugins or libraries styles) -->
   <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <!-- Main custom stylesheet for this template -->
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -36,7 +38,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #00303d">
 
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="search" xmlns="http://www.w3.org/2000/symbolsvg" viewBox="0 0 24 24">
@@ -153,51 +155,13 @@
     </div>
   </div>
 
-  <div class="search-popup">
-    <div class="search-popup-container">
-
-      <form role="search" method="get" class="search-form" action="">
-        <input type="search" id="search-form" class="search-field" placeholder="Type and press enter" value=""
-          name="s" />
-        <button type="submit" class="search-submit"><svg class="search">
-            <use xlink:href="#search"></use>
-          </svg></button>
-      </form>
-
-      <h5 class="cat-list-title">Browse Categories</h5>
-
-      <ul class="cat-list">
-        <li class="cat-list-item">
-          <a href="#" title="Wedding Planning">Wedding Planning</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Bridal Fashion">Bridal Fashion</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Decor & Flowers">Decor & Flowers</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Catering">Catering</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Photography">Photography</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Destination Weddings">Destination Weddings</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Honeymoon">Honeymoon</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
+ 
 
   <header id="header" class="site-header">
     <nav id="header-nav" class="navbar navbar-expand-lg py-4">
       <div class="container-lg">
         <a class="navbar-brand" href="index.html">
-          <img src="images/main-logo.png" class="logo">
+          <img src="images/lux-logo-small.png" class="logo" alt="lux logo" style="width: 100px">
         </a>
         <button class="navbar-toggler d-flex d-lg-none order-3 p-2 border-0" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -217,37 +181,14 @@
             <ul id="navbar"
               class="navbar-nav text-uppercase justify-content-start justify-content-lg-center align-items-start align-items-lg-center flex-grow-1">
               <li class="nav-item">
-                <a class="nav-link me-4" href="index.html">Home</a>
+                <a class="nav-link me-4 active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="aboutus.html">O nama</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link me-4 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                  aria-expanded="false">Pages</a>
-                <ul class="dropdown-menu animate slide border">
-                  <li><a href="about.html" class="dropdown-item">About Us <span class="badge bg-primary">Pro</span></a>
-                  </li>
-                  <li><a href="inquiry.html" class="dropdown-item">Inquiry
-                      <span class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="team.html" class="dropdown-item">Team <span class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="pricing.html" class="dropdown-item">Price Plan <span
-                        class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="gallery.html" class="dropdown-item">Gallery <span class="badge bg-primary">Pro</span></a>
-                  </li>
-                  <li><a href="faq.html" class="dropdown-item">FAQs <span class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="contact.html" class="dropdown-item">Contact <span class="badge bg-primary">Pro</span></a>
-                  </li>
-                  <li><a href="review.html" class="dropdown-item">Reviews <span class="badge bg-primary">Pro</span></a>
-                  </li>
-                  <li><a href="thankyou.html" class="dropdown-item">Thankyou <span
-                        class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="error.html" class="dropdown-item">Error 404 <span class="badge bg-primary">Pro</span></a>
-                  </li>
-                  <li><a href="styles.html" class="dropdown-item">Styles <span class="badge bg-primary">Pro</span></a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link me-4 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                  aria-expanded="false">Services</a>
+                  aria-expanded="false">Usluge</a>
                 <ul class="dropdown-menu animate slide border">
                   <li><a href="services.html" class="dropdown-item">Services <span
                         class="badge bg-primary">Pro</span></a></li>
@@ -255,450 +196,18 @@
                         class="badge bg-primary">Pro</span></a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link me-4 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                  aria-expanded="false">Shop</a>
-                <ul class="dropdown-menu animate slide border">
-                  <li><a href="shop.html" class="dropdown-item">Shop <span class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="single-product.html" class="dropdown-item">Single-Product <span
-                        class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="cart.html" class="dropdown-item">Cart <span class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="wishlist.html" class="dropdown-item">Wishlist <span
-                        class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="checkout.html" class="dropdown-item">Checkout <span
-                        class="badge bg-primary">Pro</span></a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link me-4 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                  aria-expanded="false">Blog</a>
-                <ul class="dropdown-menu animate slide border">
-                  <li><a href="blog.html" class="dropdown-item">Blog <span class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="single-post.html" class="dropdown-item">Single-Post <span
-                        class="badge bg-primary">Pro</span></a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="gallery.html">Galerija</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-4" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold text-decoration-underline me-4"
-                  href="https://templatesjungle.gumroad.com/l/bliss" target="_blank">Get Pro</a>
+                <a class="nav-link me-4" href="contact.html">Kontakt</a>
               </li>
             </ul>
-            <div class="user-items d-flex mt-4 mt-lg-0">
-              <ul class="d-flex justify-content-end align-items-center list-unstyled mb-0">
-                <li class="search-item pe-3">
-                  <a href="#" class="search-button">
-                    <svg class="search">
-                      <use xlink:href="#search"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="pe-3">
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <svg class="user">
-                      <use xlink:href="#user"></use>
-                    </svg>
-                  </a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header border-bottom-0">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="tabs-listing">
-                            <nav>
-                              <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
-                                <button class="nav-link text-uppercase active" id="nav-sign-in-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-sign-in" type="button" role="tab" aria-controls="nav-sign-in"
-                                  aria-selected="true">Sign In</button>
-                                <button class="nav-link text-uppercase" id="nav-register-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-register" type="button" role="tab" aria-controls="nav-register"
-                                  aria-selected="false">Register</button>
-                              </div>
-                            </nav>
-                            <div class="tab-content" id="nav-tabContent">
-                              <div class="tab-pane fade active show" id="nav-sign-in" role="tabpanel"
-                                aria-labelledby="nav-sign-in-tab">
-                                <div class="form-group py-3">
-                                  <label class="mb-2" for="sign-in">Username or email address *</label>
-                                  <input type="text" minlength="2" name="username" placeholder="Your Username"
-                                    class="form-control w-100 rounded-3 p-3" required>
-                                </div>
-                                <div class="form-group pb-3">
-                                  <label class="mb-2" for="sign-in">Password *</label>
-                                  <input type="password" minlength="2" name="password" placeholder="Your Password"
-                                    class="form-control w-100 rounded-3 p-3" required>
-                                </div>
-                                <label class="py-3">
-                                  <input type="checkbox" required="" class="d-inline">
-                                  <span class="label-body">Remember me</span>
-                                  <span class="label-body"><a href="#" class="fw-bold">Forgot Password</a></span>
-                                </label>
-                                <button type="submit" name="submit" class="btn btn-dark w-100 my-3">Login</button>
-                              </div>
-                              <div class="tab-pane fade" id="nav-register" role="tabpanel"
-                                aria-labelledby="nav-register-tab">
-                                <div class="form-group py-3">
-                                  <label class="mb-2" for="register">Your email address *</label>
-                                  <input type="text" minlength="2" name="username" placeholder="Your Email Address"
-                                    class="form-control w-100 rounded-3 p-3" required>
-                                </div>
-                                <div class="form-group pb-3">
-                                  <label class="mb-2" for="sign-in">Password *</label>
-                                  <input type="password" minlength="2" name="password" placeholder="Your Password"
-                                    class="form-control w-100 rounded-3 p-3" required>
-                                </div>
-                                <label class="py-3">
-                                  <input type="checkbox" required="" class="d-inline">
-                                  <span class="label-body">I agree to the <a href="#" class="fw-bold">Privacy
-                                      Policy</a></span>
-                                </label>
-                                <button type="submit" name="submit" class="btn btn-dark w-100 my-3">Register</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="wishlist-dropdown dropdown pe-3">
-                  <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                    <svg class="wishlist">
-                      <use xlink:href="#heart"></use>
-                    </svg>
-                  </a>
-                  <div class="dropdown-menu animate slide dropdown-menu-start dropdown-menu-lg-end p-3">
-                    <h4 class="d-flex justify-content-between align-items-center mb-3">
-                      <span class="text-primary">Your wishlist</span>
-                      <span class="badge bg-primary rounded-pill">2</span>
-                    </h4>
-                    <ul class="list-group mb-3">
-                      <li class="list-group-item bg-transparent d-flex justify-content-between lh-sm">
-                        <div>
-                          <h5>
-                            <a href="single-product.html">Wedding Planning Package</a>
-                          </h5>
-                          <small>Complete wedding coordination service.</small>
-                          <a href="#" class="d-block fw-medium text-capitalize mt-2">Add to cart</a>
-                        </div>
-                        <span class="text-primary">$2,999</span>
-                      </li>
-                      <li class="list-group-item bg-transparent d-flex justify-content-between lh-sm">
-                        <div>
-                          <h5>
-                            <a href="single-product.html">Day-Of Coordination</a>
-                          </h5>
-                          <small>Professional wedding day management.</small>
-                          <a href="#" class="d-block fw-medium text-capitalize mt-2">Add to cart</a>
-                        </div>
-                        <span class="text-primary">$1,200</span>
-                      </li>
-                      <li class="list-group-item bg-transparent d-flex justify-content-between">
-                        <span class="text-uppercase"><b>Total (USD)</b></span>
-                        <strong>$4,199</strong>
-                      </li>
-                    </ul>
-                    <div class="d-flex flex-wrap justify-content-center">
-                      <a href="#" class="w-100 btn btn-dark mb-1" type="submit">Add all to cart</a>
-                      <a href="cart.html" class="w-100 btn btn-primary" type="submit">View cart</a>
-                    </div>
-                  </div>
-                </li>
-                <li class="cart-dropdown dropdown">
-                  <a href="cart.html" class="dropdown-toggle" data-bs-toggle="dropdown" role="button"
-                    aria-expanded="false">
-                    <svg class="cart">
-                      <use xlink:href="#cart"></use>
-                    </svg><span class="fs-6 fw-light">(02)</span>
-                  </a>
-                  <div class="dropdown-menu animate slide dropdown-menu-start dropdown-menu-lg-end p-3">
-                    <h4 class="d-flex justify-content-between align-items-center mb-3">
-                      <span class="text-primary">Your cart</span>
-                      <span class="badge bg-primary rounded-pill">2</span>
-                    </h4>
-                    <ul class="list-group mb-3">
-                      <li class="list-group-item bg-transparent d-flex justify-content-between lh-sm">
-                        <div>
-                          <h5>
-                            <a href="single-product.html">Wedding Photography Package</a>
-                          </h5>
-                          <small>Premium 8-hour coverage with 2 photographers.</small>
-                        </div>
-                        <span class="text-primary">$2,500</span>
-                      </li>
-                      <li class="list-group-item bg-transparent d-flex justify-content-between lh-sm">
-                        <div>
-                          <h5>
-                            <a href="single-product.html">Videography Services</a>
-                          </h5>
-                          <small>Cinematic wedding film with drone footage.</small>
-                        </div>
-                        <span class="text-primary">$1,800</span>
-                      </li>
-                      <li class="list-group-item bg-transparent d-flex justify-content-between">
-                        <span class="text-uppercase"><b>Total (USD)</b></span>
-                        <strong>$4,300</strong>
-                      </li>
-                    </ul>
-                    <div class="d-flex flex-wrap justify-content-center">
-                      <a href="cart.html" class="w-100 btn btn-dark mb-1" type="submit">View Cart</a>
-                      <a href="checkout.html" class="w-100 btn btn-primary" type="submit">Go to checkout</a>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
     </nav>
   </header>
-
-  <section id="banner" class="position-relative overflow-hidden">
-    <div class="position-absolute top-0 end-0 z-n1 d-none d-md-block" data-aos="fade-left">
-      <img src="images/bg-pattern11.png" alt="pattern" class="img-fluid">
-    </div>
-    <div class="position-absolute bottom-0 z-n1 d-none d-md-block" data-aos="fade-right">
-      <img src="images/bg-pattern1.png" alt="pattern" class="img-fluid">
-    </div>
-    <div class="container-lg padding-medium" data-aos="fade-up">
-      <div class="hero-content text-center">
-        <h2 class="banner-title display-2">About Us</h2>
-        <nav class="breadcrumb d-flex justify-content-center">
-          <a class="breadcrumb-item nav-link banner-title" href="index.html">Home</a>
-          <a class="breadcrumb-item nav-link banner-title" href="#">Pages</a>
-          <span class="breadcrumb-item banner-title active" aria-current="page">About Us</span>
-        </nav>
-      </div>
-    </div>
-  </section>
-
-  <div class="container-lg overflow-hidden">
-    <div class="row align-items-center">
-      <div class="col-md-4 mt-5" data-aos="fade-right">
-        <div>
-          <img src="images/post-4.jpg" alt="Our wedding planning team" class="video-image img-fluid">
-        </div>
-      </div>
-      <div class="col-md-4 mt-5" data-aos="fade-up">
-        <h3>Our Growth Story</h3>
-        <p>Our wedding planning company was founded with a passion for creating unforgettable celebrations. What began
-          as a small team of event enthusiasts has grown into a premier wedding planning service, known for our
-          creativity and attention to detail.</p>
-        <p>We built our reputation through personalized service, innovative designs, and the belief that every couple
-          deserves their dream wedding. Our team continues this tradition of excellence in wedding coordination.</p>
-        <p class="m-0 mb-2"><span class="text-primary">✓</span> Certified wedding planners providing expert guidance</p>
-        <p class="m-0 mb-2"><span class="text-primary">✓</span> Stunning venues and decor for magical celebrations</p>
-        <p class="m-0 mb-2"><span class="text-primary">✓</span> Comprehensive services from traditional to modern
-          weddings</p>
-        <p class="m-0 mb-2"><span class="text-primary">✓</span> Committed to making each wedding uniquely personal</p>
-      </div>
-      <div class="col-md-4 mt-5" data-aos="fade-left">
-        <div>
-          <img src="images/post-5.jpg" alt="Beautiful wedding" class="video-image img-fluid">
-        </div>
-      </div>
-      <div class="col-md-4 mt-5" data-aos="fade-right">
-        <div class="section-title">
-          <h3 class="mb-3 text-capitalize">Trusted, creative wedding services</h3>
-        </div>
-        <p>Our company is known for its talented planners, stunning designs, and meticulous attention to detail in
-          creating dream weddings. We take pride in helping couples celebrate their love with joy and style.</p>
-        <p>Whether you need full planning or day-of coordination, our experienced team ensures every moment is
-          picture-perfect. We offer a range of packages to suit every couple's vision and budget.</p>
-        <ul>
-          <li>Dedicated planners available throughout your engagement</li>
-          <li>Beautiful venues and reception designs for unforgettable events</li>
-          <li>Traditional and contemporary wedding styles</li>
-          <li>Personalized themes and decor</li>
-          <li>Ongoing support and vendor recommendations</li>
-        </ul>
-      </div>
-      <div class="col-md-4 mt-5" data-aos="fade-up">
-        <div>
-          <img src="images/post-6.jpg" alt="Wedding ceremony" class="video-image img-fluid">
-        </div>
-      </div>
-      <div class="col-md-4 mt-5" data-aos="fade-left">
-        <h3>Our Creative Vision</h3>
-        <p>At Ever After Weddings, we believe in crafting celebrations that reflect each couple's unique love story. Our
-          talented team specializes in designing personalized weddings that capture your personality and dreams.</p>
-        <p>With years of experience in wedding design, we guide couples through every decision with creativity and care.
-          Our commitment to exceptional service has made us the choice for couples seeking stress-free planning.</p>
-        <p>We offer everything from intimate elopements to grand receptions, using our network of top vendors to create
-          magical experiences. Whether it's a rustic barn wedding or elegant ballroom affair, we're here to make it
-          perfect.</p>
-        <a href="services.html" class="btn btn-outline-primary">View Services</a>
-      </div>
-    </div>
-  </div>
-
-  <section id="categories" class="overflow-hidden">
-    <div class="container-lg padding-medium">
-      <div class="row" data-aos="fade-up">
-        <div class="col-md-3 my-3">
-          <div class="text-center">
-            <iconify-icon icon="solar:star-linear" class="service-icon text-primary display-3"></iconify-icon>
-            <h3 class="py-2">10+ Years of Experience</h3>
-            <p class="blog-paragraph">Creating dream weddings with expertise and passion. Your vision, our dedication.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-3 my-3">
-          <div class="text-center">
-            <iconify-icon class="service-icon text-primary display-3" icon="ph:plant-light"></iconify-icon>
-            <h3 class="py-2">Eco-Friendly Options</h3>
-            <p class="blog-paragraph">Sustainable weddings with biodegradable decor and locally sourced florals.</p>
-          </div>
-        </div>
-        <div class="col-md-3 my-3">
-          <div class="text-center">
-            <iconify-icon class="service-icon text-primary display-3"
-              icon="solar:chat-square-like-broken"></iconify-icon>
-            <h3 class="py-2">5k+ Happy Couples</h3>
-            <p class="blog-paragraph">Trusted by couples to deliver flawless, stress-free celebrations.</p>
-          </div>
-        </div>
-        <div class="col-md-3 my-3">
-          <div class="text-center">
-            <iconify-icon class="service-icon text-primary display-3"
-              icon="fluent:people-team-28-regular"></iconify-icon>
-            <h3 class="py-2">28 Expert Planners</h3>
-            <p class="blog-paragraph">A talented team specializing in design, coordination, and hospitality.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="testimonial" class="bg-primary position-relative overflow-hidden">
-    <div class="position-absolute top-0 end-0 pattern-up-about">
-      <img src="images/bg-pattern2.png" alt="pattern" class="img-fluid">
-    </div>
-    <div class="position-absolute bottom-0">
-      <img src="images/bg-pattern2.png" alt="pattern" class="img-fluid">
-    </div>
-    <div class="container-lg padding-medium" data-aos="fade-up">
-      <div class="text-center">
-        <svg class="quote text-white-50">
-          <use xlink:href="#quote"></use>
-        </svg>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <div class="swiper testimonial-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="review">
-                  <div class="review-content text-center">
-                    <p class="text-white fs-3 lh-base">"Emily transformed our wedding vision into reality beyond our
-                      expectations! Her attention to detail and creative solutions made our day absolutely perfect. We
-                      couldn't have done it without her expertise and calm guidance."</p>
-                    <img src="images/reviewer1.jpg" alt="reviewer" class="img-fluid rounded-circle">
-                    <h5 class="text-white m-0 lh-sm">Sarah & Michael</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="review">
-                  <div class="review-content text-center">
-                    <p class="text-white fs-3 lh-base">"From the first consultation to our magical send-off, the
-                      planning team made everything seamless. They handled every crisis before we even knew about it,
-                      allowing us to simply enjoy our special day. Worth every penny!"</p>
-                    <img src="images/reviewer2.jpg" alt="reviewer" class="img-fluid rounded-circle">
-                    <h5 class="text-white m-0 lh-sm">Jessica & David</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="review">
-                  <div class="review-content text-center">
-                    <p class="text-white fs-3 lh-base">"Our destination wedding was flawless thanks to their
-                      coordination. They managed vendors across three countries and created the most romantic atmosphere
-                      we could imagine. Every guest said it was the best wedding they'd ever attended!"</p>
-                    <img src="images/reviewer3.jpg" alt="reviewer" class="img-fluid rounded-circle">
-                    <h5 class="text-white m-0 lh-sm">Amanda & James</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <section id="news" class="overflow-hidden">
-    <div class="container-lg padding-medium">
-      <h2 class="display-4 fw-normal text-center mb-5">Latest Blog Updates</h2>
-      <div class="row">
-        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card p-3">
-            <a href="single-post.html"><img src="images/blog-1.jpg" class="img-fluid" alt="image"></a>
-            <div class="card-body p-0">
-              <p class="m-0 pt-3">10 Feb, Sun</p>
-              <a href="single-post.html" class="hover-color">
-                <h4 class="my-2">Top 2025 Wedding Trends</h4>
-              </a>
-              <p class="m-0">Discover the most romantic wedding trends for the coming year.
-                <span><a href="single-post.html" class="text-decoration-underline">Read more</a></span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1300">
-          <div class="card p-3 ">
-            <a href="single-post.html"><img src="images/blog-3.jpg" class="img-fluid" alt="image"></a>
-            <div class="card-body p-0">
-              <p class="m-0 pt-3">15 Mar, Mon</p>
-              <a href="single-post.html" class="hover-color">
-                <h4 class="my-2">Budget-Friendly Wedding Tips</h4>
-              </a>
-              <p class="m-0">How to create your dream wedding without breaking the bank. <span><a
-                    href="single-post.html" class="text-decoration-underline">Read more</a></span></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1500">
-          <div class="card p-3 ">
-            <a href="single-post.html"><img src="images/blog-2.jpg" class="img-fluid" alt="image"></a>
-            <div class="card-body p-0">
-              <p class="m-0 pt-3">22 Feb, Fri</p>
-              <a href="single-post.html" class="hover-color">
-                <h4 class="my-2">Choosing Your Perfect Venue</h4>
-              </a>
-              <p class="m-0">Expert advice for selecting a venue that matches your vision and guest list. <span><a
-                    href="single-post.html" class="text-decoration-underline">Read more</a></span></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1900">
-          <div class="card p-3 ">
-            <a href="single-post.html"><img src="images/blog-4.jpg" class="img-fluid" alt="image"></a>
-            <div class="card-body p-0">
-              <p class="m-0 pt-3">26 Apr, Tue</p>
-              <a href="single-post.html" class="hover-color">
-                <h4 class="my-2">Stress-Free Wedding Planning</h4>
-              </a>
-              <p class="m-0">Essential tips to enjoy your engagement while planning the big day. <span><a
-                    href="single-post.html" class="text-decoration-underline">Read more</a></span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="text-center">
-        <a class="btn btn-primary mt-5" href="blog.html">Read All Blogs</a>
-      </div>
-    </div>
-    </div>
-  </section>
 
   <section id="inquiry" class="jarallax overflow-hidden"
     style="background-image: url(images/background-1.jpg); background-repeat: no-repeat; background-position: center;">
