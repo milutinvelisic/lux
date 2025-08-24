@@ -1,3 +1,4 @@
+
 /*
 Theme Name: Beauty - Beauty and Nail Salon Website Template
 Theme URI: https://templatesjungle.com/
@@ -849,6 +850,33 @@ svg.primary-color-500 {
   transition: background 0.3s ease-out;
 }
 
+/* NAS CSS */
+
+.navbar-brand {
+  width: 250px;
+  height: 80px; /* Set to your desired navbar height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+/* Force the logo image to your desired size */
+.navbar-brand img {
+  width: 250px !important;
+  height: 130px !important;
+  object-fit: contain; /* or 'cover' if you want it to fill the box */
+  display: block;
+  margin: 0 auto;
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
 .navbar-toggler svg.navbar-icon {
   width: 50px;
   height: 50px;
@@ -876,6 +904,26 @@ svg.primary-color-500 {
 @media only screen and (max-width: 991px) {
   #navbar .user-items {
     display: none;
+  }
+   .navbar-brand {
+    width: 210px;
+    height: 90px;
+  }
+  .navbar-brand img {
+    width: 210px !important;
+    height: 130px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+ .navbar-brand {
+    width: 170px;
+    height: 90px;
+  }
+  .navbar-brand img {
+    width: 170px !important;
+    height: 100px !important;
   }
 }
 
@@ -931,6 +979,22 @@ section#slider .main-slider-button-next.swiper-button-disabled,
   opacity: 0.6;
 }
 
+/* NAS KOD */
+
+.swiper-slide {
+  width: 280px !important;
+  height: 800px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 280px;
+  height: 800px;
+  object-fit: cover;
+  display: block;
+}
 
 
 /* 4.3 Services Section
