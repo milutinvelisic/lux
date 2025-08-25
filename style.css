@@ -853,8 +853,8 @@ svg.primary-color-500 {
 /* NAS CSS */
 
 .navbar-brand {
-  width: 250px;
-  height: 80px; /* Set to your desired navbar height */
+  width: 260px;
+  height: 90px; /* Set to your desired navbar height */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -865,8 +865,8 @@ svg.primary-color-500 {
 
 /* Force the logo image to your desired size */
 .navbar-brand img {
-  width: 250px !important;
-  height: 130px !important;
+  width: 260px !important;
+  height: 140px !important;
   object-fit: contain; /* or 'cover' if you want it to fill the box */
   display: block;
   margin: 0 auto;
@@ -982,19 +982,22 @@ section#slider .main-slider-button-next.swiper-button-disabled,
 /* NAS KOD */
 
 .swiper-slide {
-  width: 280px !important;
-  height: 800px !important;
+  width: 360px !important;   /* Replace 600px with banner-img5 width */
+  height: 800px !important;  /* Replace 400px with banner-img5 height */
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.swiper-slide img {
-  width: 280px;
+.swiper-slide img{
+  width: 360px;
   height: 800px;
-  object-fit: cover;
+  object-fit: cover;   /* Use 'cover' for cropping, or 'contain' to fit without cropping */
   display: block;
 }
+
+
+
 
 
 /* 4.3 Services Section
@@ -1272,4 +1275,14 @@ iconify-icon.quote {
   .product-box {
     width: 50%;
   }
+}
+
+/* NAS KOD */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
 }
