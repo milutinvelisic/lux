@@ -135,6 +135,10 @@ a:hover {
   color: var(--primary-color);
 }
 
+.footer-link:hover {
+  color: #00303d; /* footer links hover color */
+}
+
 
 /*--------------------------------------------------------------
 /** 2.3 Section
