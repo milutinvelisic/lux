@@ -6,7 +6,7 @@
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    padding-bottom: 200px;
 }
  
 .slider-video {
@@ -35,3 +35,17 @@
     1px -1px black,
    -1px -1px black;
 }
+
+.logo-futer {
+    min-width: 100px;
+}
+
+.bg-darker {
+    background-color: #00303d
+}
+
+.footer-menu-added {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

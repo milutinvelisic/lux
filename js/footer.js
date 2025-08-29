@@ -2,7 +2,7 @@ document.getElementById("footer").innerHTML = `
     <div class="container-lg padding-medium text-white">
       <div class="row ">
         <div class="col-lg-4 my-4 ">
-          <div class="footer-menu">
+          <div class="footer-menu ">
             <a class="navbar-brand" href="index.html">
               <img src="images/logo-futer.png" class="logo img-fluid">
             </a>

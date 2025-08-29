@@ -2,7 +2,7 @@ document.getElementById("header").innerHTML = `
       <nav id="header-nav" class="navbar navbar-expand-lg py-4">
       <div class="container-lg">
         <a class="navbar-brand" href="index.html">
-          <img src="images/luxlogo.png" class="logo" alt="lux logo" style="width: 100px">
+          <img src="images/luxlogo.png" id="navbar-icon" class="logo" alt="lux logo" style="width: 100px">
         </a>
         <button class="navbar-toggler d-flex d-lg-none order-3 p-2 border-0" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,12 +10,12 @@ document.getElementById("header").innerHTML = `
             <use xlink:href="#navbar-icon"></use>
           </svg>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
+        <div class="offcanvas offcanvas-end bg-darker" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
           <div class="offcanvas-header px-4 pb-0">
             <a class="navbar-brand" href="index.html">
-              <img src="images/main-logo.png" class="logo">
+              <img src="images/luxlogo.png" class="logo">
             </a>
-            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"
+            <button type="button" class="btn-close btn-close-black bg-primary" data-bs-dismiss="offcanvas" aria-label="Close"
               data-bs-target="#bdNavbar"></button>
           </div>
           <div class="offcanvas-body">
