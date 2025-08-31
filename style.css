@@ -852,7 +852,7 @@ svg.primary-color-500 {
   width: 100%;
   z-index: 10;
   transition: background 0.3s ease-out;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 /* NAS CSS */
@@ -1168,6 +1168,36 @@ span.price-tick {
 /* --------------------------------------------------------------
 5.3  Team page style
 ------------------------------------------------------------- */
+.team-member.card {
+  width: 100%;
+  min-width: 260px;   /* Optional: set a min width */
+  max-width: 450px;   /* Optional: set a max width */
+  height: 520px;      /* Set your desired height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Ensure image-holder fills the card width and height */
+.team-member .image-holder {
+  width: 100%;
+  height: 420px;      /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Make images fill the image-holder */
+.team-member .image-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 .team-member ul.social-links {
   top: 0;
 }
@@ -1296,4 +1326,29 @@ iconify-icon.quote {
   align-items: center;
   width: 100%;
   margin: 0 auto;
+}
+
+.row.aos-init.aos-animate {
+  margin-top: 130px;
+}
+
+/* Galerija */
+
+.container-lg.aos-init.aos-animate {
+  margin-bottom: 120px;
+}
+
+/* O nama */
+
+.img-fluid {
+  height: 440px;
+  /* object-fit: cover; */
+}
+
+h3.display-5.fw-normal {
+  font-size: 2rem; /* Adjust as needed to fit in one line *//* Prevents wrapping to a new line */
+}
+
+.row.align-items-center.p-5.g-md-5 {
+  margin-bottom: 120px;
 }

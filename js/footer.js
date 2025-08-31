@@ -6,9 +6,8 @@ document.getElementById("footer").innerHTML = `
             <a class="navbar-brand" href="index.html">
               <img src="images/logo-futer.png" class="logo img-fluid">
             </a>
-            <p class="text-white mt-4">Hic, dolor soluta, dolores laudantium reprehenderit ullam, similique voluptate
-              omnis modi
-              sit minima illo.</p>
+            <p class="text-white mt-4">Mesto gde svaki trenutak postaje uspomena.
+            </p>
             <ul class="info list-unstyled mt-4">
 
             </ul>
