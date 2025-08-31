@@ -222,3 +222,38 @@
   }); // End of a document
 
 })(jQuery);
+
+// NAS JS KOD
+
+
+  const totalImages = 48;      // slike: post-1.jpg ... post-48.jpg
+  const imagesPerPage = 6;     // koliko slika se prikazuje odjednom
+  const daysPerCycle = 5;      // rotacija na svakih 5 dana
+
+  function loadGallery() {
+    const today = new Date();
+    const dayCount = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
+
+    const cycle = Math.floor(dayCount / daysPerCycle);
+    const startIndex = (cycle * imagesPerPage) % totalImages;
+
+    let galleryHTML = "";
+    for (let i = 0; i < imagesPerPage; i++) {
+      const imgIndex = (startIndex + i) % totalImages + 1;
+      galleryHTML += `
+        <div class="entry-item col-md-4 my-3">
+          <a href="images/post-${imgIndex}.jpg" title="photo" class="image-link"><img src="images/post-${imgIndex}.jpg"
+              class="post-image img-fluid"></a>
+        </div>`;
+    }
+
+    document.querySelector(".row.entry-container").innerHTML = galleryHTML;
+  }
+
+  loadGallery();
+
+
+//TEST
+
+// const secondCount = Math.floor(today.getTime() / 1000);
+// const cycle = Math.floor(secondCount / 10); // menja se na svakih 10 sekundi
