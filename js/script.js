@@ -247,7 +247,10 @@
         </div>`;
     }
 
-    document.querySelector(".row.entry-container").innerHTML = galleryHTML;
+    if (document.querySelector(".row.entry-container")) {
+      document.querySelector(".row.entry-container").innerHTML = galleryHTML;
+    }
+   
   }
 
   loadGallery();
