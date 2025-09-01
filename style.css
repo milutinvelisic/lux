@@ -1342,7 +1342,8 @@ iconify-icon.quote {
 
 .img-fluid {
   height: 440px;
-  /* object-fit: cover; */
+  width: 100%;
+  object-fit: cover;
 }
 
 h3.display-5.fw-normal {
