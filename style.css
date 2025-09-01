@@ -852,7 +852,7 @@ svg.primary-color-500 {
   width: 100%;
   z-index: 10;
   transition: background 0.3s ease-out;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 /* NAS CSS */
