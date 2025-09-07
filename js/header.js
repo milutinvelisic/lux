@@ -48,4 +48,22 @@ document.getElementById("header").innerHTML = `
         </div>
       </div>
     </nav>
-`;
+`
+setTimeout(function () {
+  const navLinks = document.querySelectorAll("#navbar .nav-link");
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+    // Special case: highlight "Usluge" if on any services page
+    if (
+      (currentPage === "servicesdpd.html" || currentPage === "servicesdetails.html") &&
+      link.textContent.trim().toLowerCase() === "usluge"
+    ) {
+      link.classList.add("active");
+    }
+  });
+}, 0);

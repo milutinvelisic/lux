@@ -255,6 +255,17 @@
 
   loadGallery();
 
+   // Replace with your actual phone number (international format, no spaces or +)
+  const phoneNumber = '381692309008';
+
+  // Phone call
+  document.getElementById('call-link').setAttribute('href', 'tel:+' + phoneNumber);
+
+  // WhatsApp chat
+  document.getElementById('wa-link').setAttribute('href', 'https://wa.me/' + phoneNumber);
+
+  // Viber chat
+  document.getElementById('mail-link').setAttribute('href', 'mailto:luxeventns@gmail.com');
 
 //TEST
 

@@ -1353,3 +1353,34 @@ h3.display-5.fw-normal {
 .row.align-items-center.p-5.g-md-5 {
   margin-bottom: 120px;
 }
+
+
+/* Kontakt */
+
+.social-links-black .social-icon {
+  color: #e28145 !important;
+  border: 2px solid #e28145;      /* Black border, adjust color as needed */
+  border-radius: 50%;          /* Makes the border circular */
+  padding: 0.5em;              /* Space inside the circle */
+  width: 2.5em;                /* Fixed width for perfect circle */
+  height: 2.5em;               /* Fixed height for perfect circle */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.social-links-black .social-icon:hover{
+   border-color: var(--primary-color);
+}
+
+.text-black.mt-4 {
+  margin-top: 50px !important;
+  padding-bottom: 50px;
+  color: #e28145 !important;
+}
+
+.d-flex.list-unstyled.gap-2.m-0 {
+  margin-top: 80px !important;
+}
