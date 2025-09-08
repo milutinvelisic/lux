@@ -31,10 +31,22 @@ document.getElementById("header").innerHTML = `
                 <a class="nav-link me-4 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                   aria-expanded="false">Usluge</a>
                 <ul class="dropdown-menu animate slide border">
-                  <li><a href="servicesdpd.html" class="dropdown-item">Services <span
-                        class="badge bg-primary">Pro</span></a></li>
-                  <li><a href="servicesdetails.html" class="dropdown-item">Service-Details <span
-                        class="badge bg-primary">Pro</span></a></li>
+                  <li><a href="deluxmenusvadba.html" class="dropdown-item">Delux Meni (Svadba)<span
+                        class="badge bg-primary"></span></a></li>
+                  <li><a href="deluxmenuproslava.html" class="dropdown-item">Delux Meni (Proslava)<span
+                        class="badge bg-primary"></span></a></li>
+                   <li><a href="luxmenusvadba.html" class="dropdown-item">Lux Meni (Svadba)<span
+                        class="badge bg-primary"></span></a></li>
+                  <li><a href="luxmenuproslava.html" class="dropdown-item">Lux Meni (Proslava)<span
+                        class="badge bg-primary"></span></a></li>
+                   <li><a href="classicmenusvadba.html" class="dropdown-item">Classic Meni (Svadba)<span
+                        class="badge bg-primary"></span></a></li>
+                  <li><a href="classicmenuproslava.html" class="dropdown-item">Classic Meni (Proslava)<span
+                        class="badge bg-primary"></span></a></li>
+                     <li><a href="buffetmenu1.html" class="dropdown-item">Buffet Meni (Svadba)<span
+                        class="badge bg-primary"></span></a></li>
+                  <li><a href="buffetmenu2.html" class="dropdown-item">Buffet Meni (Proslava)<span
+                        class="badge bg-primary"></span></a></li>
                 </ul>
               </li>
               <li class="nav-item">
