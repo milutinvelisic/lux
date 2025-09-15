@@ -230,8 +230,31 @@
   const imagesPerPage = 6;     // koliko slika se prikazuje odjednom
   const daysPerCycle = 5;      // rotacija na svakih 5 dana
 
-  function loadGallery() {
-    const today = new Date();
+  // function loadGallery() {
+  //   const today = new Date();
+  //   const dayCount = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
+
+  //   const cycle = Math.floor(dayCount / daysPerCycle);
+  //   const startIndex = (cycle * imagesPerPage) % totalImages;
+
+  //   let galleryHTML = "";
+  //   for (let i = 0; i < imagesPerPage; i++) {
+  //     const imgIndex = (startIndex + i) % totalImages + 1;
+  //     galleryHTML += `
+  //       <div class="entry-item col-md-4 my-3">
+  //         <a href="images/post-${imgIndex}.jpg" title="photo" class="image-link"><img src="images/post-${imgIndex}.jpg"
+  //             class="post-image img-fluid"></a>
+  //       </div>`;
+  //   }
+
+  //   if (document.querySelector(".row.entry-container")) {
+  //     document.querySelector(".row.entry-container").innerHTML = galleryHTML;
+  //   }
+   
+  // }
+
+ if (window.location.pathname.includes('gallery.html')) {
+   const today = new Date();
     const dayCount = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
 
     const cycle = Math.floor(dayCount / daysPerCycle);
@@ -251,9 +274,8 @@
       document.querySelector(".row.entry-container").innerHTML = galleryHTML;
     }
    
-  }
-
   loadGallery();
+}
 
    // Replace with your actual phone number (international format, no spaces or +)
   const phoneNumber = '381692309008';
@@ -271,3 +293,31 @@
 
 // const secondCount = Math.floor(today.getTime() / 1000);
 // const cycle = Math.floor(secondCount / 10); // menja se na svakih 10 sekundi
+
+
+// Kod za menije 
+
+// Only run this code on deluxmenusvadba.html
+if (window.location.pathname.includes('deluxmenusvadba.html')) {
+  const images = [
+    "images/DeLux Menu- Svadba/Strana 1/delux meni svadba- strana 1 bez cene.png",
+    "images/DeLux Menu- Svadba/Strana 2/delux meni svadba- strana 2 bez cene.png",
+    "images/DeLux Menu- Svadba/Strana 3/delux meni svadba- strana 3 bez cene.png",
+    "images/DeLux Menu- Svadba/Strana 4/delux meni svadba- strana 4 bez cene.png",
+    "images/DeLux Menu- Svadba/Strana 5/delux meni svadba- strana 5 bez cene.png",
+    "images/DeLux Menu- Svadba/Strana 6/delux menu svadba- strana 6 bez cene.png",
+    "images/DeLux Menu- Svadba/Strana 7/delux menu svadba- strana 7 bez cene.png",
+    "images/DeLux Menu- Svadba/Strana 8/delux menu svadba- strana 8 bez cene.png"
+  ];
+
+  const container = document.querySelector('.row.entry-container');
+  if (container) {
+    container.innerHTML = images.map(src => `
+      <div class="entry-item col-md-4 my-3">
+        <a href="${src}" title="photo" class="image-link">
+          <img src="${src}" class="post-image img-fluid">
+        </a>
+      </div>
+    `).join('');
+  }
+}
