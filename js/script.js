@@ -281,13 +281,21 @@
   const phoneNumber = '381692309008';
 
   // Phone call
-  document.getElementById('call-link').setAttribute('href', 'tel:+' + phoneNumber);
+  if (document.getElementById('call-link')) {
+    document.getElementById('call-link').setAttribute('href', 'tel:+' + phoneNumber);
+  }
 
   // WhatsApp chat
-  document.getElementById('wa-link').setAttribute('href', 'https://wa.me/' + phoneNumber);
+  if (document.getElementById('wa-link')) {
+    document.getElementById('wa-link').setAttribute('href', 'https://wa.me/' + phoneNumber);
+  }
+ 
 
   // Viber chat
-  document.getElementById('mail-link').setAttribute('href', 'mailto:luxeventns@gmail.com');
+  if (document.getElementById('mail-link')) {
+    document.getElementById('mail-link').setAttribute('href', 'mailto:luxeventns@gmail.com');
+  }
+
 
 //TEST
 
