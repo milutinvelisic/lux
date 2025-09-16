@@ -31,21 +31,9 @@ document.getElementById("header").innerHTML = `
                 <a class="nav-link me-4 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                   aria-expanded="false">Usluge</a>
                 <ul class="dropdown-menu animate slide border">
-                  <li><a href="deluxmenusvadba.html" class="dropdown-item">Delux Meni (Svadba)<span
+                  <li><a href="menusvadba.html" class="dropdown-item">MENI - SVADBA<span
                         class="badge bg-primary"></span></a></li>
-                  <li><a href="deluxmenuproslava.html" class="dropdown-item">Delux Meni (Proslava)<span
-                        class="badge bg-primary"></span></a></li>
-                   <li><a href="luxmenusvadba.html" class="dropdown-item">Lux Meni (Svadba)<span
-                        class="badge bg-primary"></span></a></li>
-                  <li><a href="luxmenuproslava.html" class="dropdown-item">Lux Meni (Proslava)<span
-                        class="badge bg-primary"></span></a></li>
-                   <li><a href="classicmenusvadba.html" class="dropdown-item">Classic Meni (Svadba)<span
-                        class="badge bg-primary"></span></a></li>
-                  <li><a href="classicmenuproslava.html" class="dropdown-item">Classic Meni (Proslava)<span
-                        class="badge bg-primary"></span></a></li>
-                     <li><a href="buffetmenu1.html" class="dropdown-item">Buffet Meni (Svadba)<span
-                        class="badge bg-primary"></span></a></li>
-                  <li><a href="buffetmenu2.html" class="dropdown-item">Buffet Meni (Proslava)<span
+                  <li><a href="menuproslava.html" class="dropdown-item">MENI - PROSLAVA<span
                         class="badge bg-primary"></span></a></li>
                 </ul>
               </li>

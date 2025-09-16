@@ -172,6 +172,20 @@
   left: 50;
 }
 
+/* Luka dodao */
+
+.menu-shortcuts .btn-outline-dark {
+  border-color: #e58043;     /* boja bordure */
+  color: #e58043;            /* boja slova */
+}
+
+.menu-shortcuts .btn-outline-dark:hover,
+.menu-shortcuts .btn-outline-dark:focus {
+  background-color: #e58043; /* pozadina na hover */
+  color: #fff;               /* bela slova */
+  border-color: #e58043;     /* zadrži istu boju bordure */
+}
+
 
 @media only screen and (max-width: 1400px) {
   .menu-section-image {
