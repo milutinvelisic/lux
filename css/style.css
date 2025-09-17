@@ -55,6 +55,7 @@
   background-color: #ffffff;
   position: relative;
   margin: 0px auto;
+  font-family: "Cormorant";
 }
 
 .left-section,
@@ -67,12 +68,13 @@
 .left-section,
 .right-section,
 .right-section {
-  width: 500px;
+  width: 33%;
 }
 
 .left-section span {
   font-size: 30px;
   color: #ffc549;
+  margin-bottom: 20px;
 }
 
 .top-section {
@@ -98,10 +100,11 @@
 }
 
 .top-section h3 {
-  font-size: 18px;
+  font-size: 33px;
   color: #c48a1b;
   text-transform: uppercase;
   margin-top: 36px;
+  font-family: none;
 }
 
 .menu-section {
@@ -122,23 +125,31 @@
   padding: 0;
   /* width: 55%; */
   margin: 0px auto;
+  font-size: 20px;
 }
 .menu-section b {
   color: #a94f1e;
 }
 
 .menu-section p {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 21px;
 }
 
 .divider {
   margin: 40px auto;
   width: 80%;
   border-top: 3px solid #d1b36d;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
-.top-left, .top-right, .bottom-left, .bottom-right, .ornament-top, .ornament-bottom {
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right,
+.ornament-top,
+.ornament-bottom {
   position: absolute;
 }
 
@@ -175,21 +186,86 @@
 /* Luka dodao */
 
 .menu-shortcuts .btn-outline-dark {
-  border-color: #e58043;     /* boja bordure */
-  color: #e58043;            /* boja slova */
+  border-color: #e58043; /* boja bordure */
+  color: #e58043; /* boja slova */
 }
 
 .menu-shortcuts .btn-outline-dark:hover,
 .menu-shortcuts .btn-outline-dark:focus {
   background-color: #e58043; /* pozadina na hover */
-  color: #fff;               /* bela slova */
-  border-color: #e58043;     /* zadrži istu boju bordure */
+  color: #fff; /* bela slova */
+  border-color: #e58043; /* zadrži istu boju bordure */
 }
 
+#lux-meni-svadba-first .menu-section-image img,
+#lux-meni-svadba-second .menu-section-image img {
+  transform: rotate(20deg);
+  height: 400px;
+  object-fit: cover;
+}
 
-@media only screen and (max-width: 1400px) {
+#lux-meni-svadba-third .menu-section-image img {
+  width: 400px;
+  margin-top: 75px;
+}
+
+.last,
+.second-last {
+  list-style: none;
+  margin-top: 30px;
+}
+
+#lux-meni-svadba-first .menu-section,
+#lux-meni-svadba-second .menu-section,
+#lux-meni-svadba-third .menu-section,
+#lux-meni-svadba-forth .menu-section,
+#lux-meni-svadba-sixth .menu-section,
+#lux-meni-svadba-seventh .menu-section
+ {
+  width: 100%;
+}
+
+#lux-meni-svadba-third .left-section ul,
+#lux-meni-svadba-third .left-section p {
+  text-align: left;
+}
+
+#lux-meni-svadba-third .right-section ul,
+#lux-meni-svadba-third .right-section p {
+  text-align: right;
+}
+
+#lux-meni-svadba-third .right-section ul {
+  margin: 0px;
+}
+
+#lux-meni-svadba-forth .menu-section-image img,
+#lux-meni-svadba-fifth .menu-section-image img,
+#lux-meni-svadba-sixth .menu-section-image img {
+  height: 600px;
+  width: 500px;
+}
+
+#lux-meni-svadba-seventh .left-section,
+#lux-meni-svadba-seventh .right-section {
+  width: 45%;
+}
+
+#lux-meni-svadba-eight .left-section {
+  width: 100%;
+}
+
+#lux-meni-svadba-eight ul {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
   .menu-section-image {
     display: none;
+  }
+
+  .left-section, .right-section {
+    width: 45%;
   }
 
   .menu-section ul {
