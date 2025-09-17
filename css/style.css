@@ -96,7 +96,7 @@
 .top-section h2 {
   color: #a94f1e;
   font-size: 56px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .top-section h3 {
@@ -198,13 +198,19 @@
 }
 
 #lux-meni-svadba-first .menu-section-image img,
-#lux-meni-svadba-second .menu-section-image img {
+#lux-meni-svadba-second .menu-section-image img,
+#delux-menu-svadba-first .menu-section-image img,
+#delux-menu-svadba-second .menu-section-image img, 
+#delux-menu-svadba-third .menu-section-image img
+{
   transform: rotate(20deg);
   height: 400px;
   object-fit: cover;
 }
 
-#lux-meni-svadba-third .menu-section-image img {
+#lux-meni-svadba-third .menu-section-image img,
+#delux-menu-svadba-third .menu-section-image img
+{
   width: 400px;
   margin-top: 75px;
 }
@@ -220,42 +226,67 @@
 #lux-meni-svadba-third .menu-section,
 #lux-meni-svadba-forth .menu-section,
 #lux-meni-svadba-sixth .menu-section,
-#lux-meni-svadba-seventh .menu-section
+#lux-meni-svadba-seventh .menu-section,
+#delux-menu-svadba-first .menu-section,
+#delux-menu-svadba-second .menu-section,
+#delux-menu-svadba-third .menu-section,
+#delux-menu-svadba-forth .menu-section,
+#delux-menu-svadba-sixth .menu-section,
+#delux-menu-svadba-seventh .menu-section
  {
   width: 100%;
 }
 
 #lux-meni-svadba-third .left-section ul,
-#lux-meni-svadba-third .left-section p {
+#lux-meni-svadba-third .left-section p,
+#delux-menu-svadba-third .left-section ul,
+#delux-menu-svadba-third .left-section p
+{
   text-align: left;
 }
 
 #lux-meni-svadba-third .right-section ul,
-#lux-meni-svadba-third .right-section p {
+#lux-meni-svadba-third .right-section p,
+#delux-menu-svadba-third .right-section ul,
+#delux-menu-svadba-third .right-section p
+{
   text-align: right;
 }
 
-#lux-meni-svadba-third .right-section ul {
+#lux-meni-svadba-third .right-section ul,
+#delux-menu-svadba-third .right-section ul
+{
   margin: 0px;
 }
 
 #lux-meni-svadba-forth .menu-section-image img,
 #lux-meni-svadba-fifth .menu-section-image img,
-#lux-meni-svadba-sixth .menu-section-image img {
+#lux-meni-svadba-sixth .menu-section-image img,
+#delux-menu-svadba-forth .menu-section-image img,
+#delux-menu-svadba-fifth .menu-section-image img,
+#delux-menu-svadba-sixth .menu-section-image img
+{
   height: 600px;
   width: 500px;
 }
 
 #lux-meni-svadba-seventh .left-section,
-#lux-meni-svadba-seventh .right-section {
+#lux-meni-svadba-seventh .right-section,
+#delux-menu-svadba-seventh .left-section,
+#delux-menu-svadba-seventh .right-section 
+{
   width: 45%;
 }
 
-#lux-meni-svadba-eight .left-section {
+#lux-meni-svadba-eight .left-section,
+#delux-menu-svadba-eight .left-section
+{
   width: 100%;
 }
 
-#lux-meni-svadba-eight ul {
+#lux-meni-svadba-eight ul,
+#delux-menu-svadba-eight ul
+{
   margin-bottom: 20px;
 }
 
