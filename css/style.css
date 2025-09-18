@@ -367,8 +367,8 @@
     width: 100% !important;
   }
 
-  .menu-section ul {
-    /* width: 100% !important; */
+  .right-section span {
+    margin-top: 50px;
   }
 
   .top-section h3 {
