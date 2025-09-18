@@ -1,9 +1,9 @@
-const menus = ["deluxe-menu", "lux-menu", "classic-menu", "buffet-menu"];
+const menus = ["delux-menu", "lux-menu", "classic-menu", "buffet-menu"];
 
 // Hide all except deluxe by default
 menus.forEach(id => {
   const el = document.getElementById(id);
-  if (el) el.style.display = (id === "deluxe-menu") ? "block" : "none";
+  if (el) el.style.display = (id === "delux-menu") ? "block" : "none";
 });
 
 document.querySelectorAll(".menu-cat").forEach(link => {

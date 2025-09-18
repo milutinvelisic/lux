@@ -210,7 +210,8 @@
 }
 
 #lux-meni-svadba-third .menu-section-image img,
-#delux-menu-svadba-third .menu-section-image img
+#delux-menu-svadba-third .menu-section-image img,
+#delux-menu-proslava-third .menu-section-image img
 {
   width: 400px;
   margin-top: 75px;
@@ -239,7 +240,9 @@
 #classic-menu-svadba-third .menu-section,
 #classic-menu-svadba-forth .menu-section,
 #classic-menu-svadba-fifth .menu-section,
-#classic-menu-svadba-sixth .menu-section
+#classic-menu-svadba-sixth .menu-section,
+#delux-menu-proslava-third .menu-section,
+#delux-menu-proslava-fifth .menu-section
  {
   width: 100%;
 }
@@ -273,7 +276,8 @@
 #delux-menu-svadba-fifth .menu-section-image img,
 #delux-menu-svadba-sixth .menu-section-image img,
 #classic-menu-svadba-third .menu-section-image img,
-#classic-menu-svadba-forth .menu-section-image img
+#classic-menu-svadba-forth .menu-section-image img,
+#delux-menu-proslava-fifth .menu-section-image img
 {
   height: 600px;
   width: 500px;
