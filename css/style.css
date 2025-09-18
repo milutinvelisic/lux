@@ -201,7 +201,8 @@
 #lux-meni-svadba-second .menu-section-image img,
 #delux-menu-svadba-first .menu-section-image img,
 #delux-menu-svadba-second .menu-section-image img, 
-#delux-menu-svadba-third .menu-section-image img
+#delux-menu-svadba-third .menu-section-image img,
+#classic-menu-svadba-first .menu-section-image img
 {
   transform: rotate(20deg);
   height: 400px;
@@ -232,7 +233,13 @@
 #delux-menu-svadba-third .menu-section,
 #delux-menu-svadba-forth .menu-section,
 #delux-menu-svadba-sixth .menu-section,
-#delux-menu-svadba-seventh .menu-section
+#delux-menu-svadba-seventh .menu-section,
+#classic-menu-svadba-first .menu-section,
+#classic-menu-svadba-second .menu-section,
+#classic-menu-svadba-third .menu-section,
+#classic-menu-svadba-forth .menu-section,
+#classic-menu-svadba-fifth .menu-section,
+#classic-menu-svadba-sixth .menu-section
  {
   width: 100%;
 }
@@ -264,7 +271,9 @@
 #lux-meni-svadba-sixth .menu-section-image img,
 #delux-menu-svadba-forth .menu-section-image img,
 #delux-menu-svadba-fifth .menu-section-image img,
-#delux-menu-svadba-sixth .menu-section-image img
+#delux-menu-svadba-sixth .menu-section-image img,
+#classic-menu-svadba-third .menu-section-image img,
+#classic-menu-svadba-forth .menu-section-image img
 {
   height: 600px;
   width: 500px;
@@ -273,19 +282,23 @@
 #lux-meni-svadba-seventh .left-section,
 #lux-meni-svadba-seventh .right-section,
 #delux-menu-svadba-seventh .left-section,
-#delux-menu-svadba-seventh .right-section 
+#delux-menu-svadba-seventh .right-section,
+#classic-menu-svadba-fifth .left-section,
+#classic-menu-svadba-fifth .right-section
 {
   width: 45%;
 }
 
 #lux-meni-svadba-eight .left-section,
-#delux-menu-svadba-eight .left-section
+#delux-menu-svadba-eight .left-section,
+#classic-menu-svadba-sixth .left-section
 {
   width: 100%;
 }
 
 #lux-meni-svadba-eight ul,
-#delux-menu-svadba-eight ul
+#delux-menu-svadba-eight ul,
+#classic-menu-svadba-sixth ul
 {
   margin-bottom: 20px;
 }
