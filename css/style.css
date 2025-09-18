@@ -339,6 +339,10 @@
   margin-top: 40px;
 }
 
+.menu-shortcuts a {
+    margin-bottom: 25px;
+  }
+
 @media only screen and (max-width: 1300px) {
   .menu-section-image {
     display: none;
@@ -357,5 +361,18 @@
   .middle-section {
     flex-direction: column;
     align-items: center;
+  }
+
+  .left-section, .right-section {
+    width: 100% !important;
+  }
+
+  .menu-section ul {
+    /* width: 100% !important; */
+  }
+
+  .top-section h3 {
+    text-align: center;
+    padding: 0px 60px;
   }
 }
