@@ -1,4 +1,4 @@
-const menus = ["delux-menu", "lux-menu", "classic-menu", "buffet-menu"];
+const menus = ["delux-menu", "lux-menu", "classic-menu", "buffet-menu-1", "buffet-menu-2"];
 
 // Hide all except deluxe by default
 menus.forEach(id => {
