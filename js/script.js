@@ -265,7 +265,7 @@
       const imgIndex = (startIndex + i) % totalImages + 1;
       galleryHTML += `
         <div class="entry-item col-md-4 my-3">
-          <a href="images/post-${imgIndex}.jpg" title="photo" class="image-link"><img src="images/post-${imgIndex}.jpg"
+          <a href="images/post-${imgIndex}.JPG" title="photo" class="image-link"><img src="images/post-${imgIndex}.JPG"
               class="post-image img-fluid"></a>
         </div>`;
     }
