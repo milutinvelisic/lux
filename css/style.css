@@ -390,4 +390,8 @@
   .top-section h2 {
     text-align: center !important;
   }
+
+  .footer-menu {
+    text-align: center;
+  }
 }
