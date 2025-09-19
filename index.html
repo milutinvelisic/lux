@@ -166,7 +166,11 @@
   <!-- Pozadinski slajder - Luka -->
   <section id="background-slider" class=" bg-darker">
     <h1 class="slider-title">Mesto poverenja, elegancije i nezaboravnih proslava</h1>
-    <video class="slider-video" src="videos/slider-video2.mp4" loop autoplay muted />
+    <video class="slider-video" loop autoplay muted playsinline>
+      <source src="videos/slider-video2.mp4" type="video/mp4">
+      <source src="videos/slider-video2.mov" type="video/quicktime">
+      Your browser does not support the video tag.
+    </video>
   </section>
   <section id="slider" class="overflow-hidden bg-darker">
     <div class="container-lg">
