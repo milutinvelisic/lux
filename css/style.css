@@ -384,4 +384,8 @@
     text-align: center;
     padding: 0px 60px;
   }
+
+  .top-section h2 {
+    text-align: center !important;
+  }
 }
