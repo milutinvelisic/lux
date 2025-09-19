@@ -365,10 +365,19 @@
 
   .left-section, .right-section {
     width: 100% !important;
+    text-align: center !important;
   }
 
   .right-section span {
     margin-top: 50px;
+  }
+
+  .left-section p, .right-section p {
+    text-align: center !important;
+  }
+
+  .left-section ul, .right-section ul {
+    text-align: center !important;
   }
 
   .top-section h3 {
