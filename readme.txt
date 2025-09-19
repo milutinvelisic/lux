@@ -1,5 +1,5 @@
 GET PRO VERSION HERE:
-https://templatesjungle.gumroad.com/l/bliss
+https://templatesjungle.gumroad.com/l/NewLux
 
 
 It is a premium HTML CSS template by TemplatesJungle.com
