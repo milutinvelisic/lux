@@ -274,7 +274,7 @@
       document.querySelector(".row.entry-container").innerHTML = galleryHTML;
     }
    
-  loadGallery();
+  // loadGallery();
 }
 
    // Replace with your actual phone number (international format, no spaces or +)
