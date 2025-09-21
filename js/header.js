@@ -30,10 +30,10 @@ document.getElementById("header").innerHTML = `
               <li class="nav-item dropdown">
                 <a class="nav-link me-4 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                   aria-expanded="false">Usluge</a>
-                <ul class="dropdown-menu animate slide border">
-                  <li><a href="menusvadba.html" class="dropdown-item">MENI - SVADBA<span
+                <ul class="dropdown-menu animate slide navbar-submenu">
+                  <li><a href="menusvadba.html" class="dropdown-item">MENU - SVADBA<span
                         class="badge bg-primary"></span></a></li>
-                  <li><a href="menuproslava.html" class="dropdown-item">MENI - PROSLAVA<span
+                  <li><a href="menuproslava.html" class="dropdown-item">MENU - PROSLAVA<span
                         class="badge bg-primary"></span></a></li>
                 </ul>
               </li>
