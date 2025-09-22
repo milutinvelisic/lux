@@ -419,3 +419,9 @@ body.chocolat-open #header {
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 349px) {
+  .navbar-brand {
+    width: 180px !important;
+  }
+}
