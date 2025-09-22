@@ -193,7 +193,7 @@ if (window.location.pathname.includes("gallery.html")) {
     const imgIndex = ((startIndex + i) % totalImages) + 1;
     galleryHTML += `
         <div class="entry-item col-md-4 my-3">
-          <a href="images/post-${imgIndex}-min.JPG" title="photo" class="image-link"><img src="images/post-${imgIndex}.JPG"
+          <a href="images/post-${imgIndex}-min.JPG" title="photo" class="image-link"><img src="images/post-${imgIndex}-min.JPG"
               class="post-image img-fluid"></a>
         </div>`;
   }
