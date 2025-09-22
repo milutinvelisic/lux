@@ -10,17 +10,17 @@ document.getElementById("footer").innerHTML = `
             <div class="social-links mt-4">
               <ul class="d-flex  list-unstyled gap-2 m-0">
                 <li class="social">
-                  <a href="https://www.facebook.com/share/19zxosDkaK/?mibextid=wwXIfr">
+                  <a target="_blank" href="https://www.facebook.com/share/19zxosDkaK/?mibextid=wwXIfr">
                     <iconify-icon class="social-icon" icon="ri:facebook-fill"></iconify-icon>
                   </a>
                 </li>
                 <li class="social">
-                  <a href="https://www.instagram.com/newluxeventscenter?igsh=MXpsM2s2dzRzeWwx">
+                  <a target="_blank" href="https://www.instagram.com/newluxeventscenter?igsh=MXpsM2s2dzRzeWwx">
                     <iconify-icon class="social-icon" icon="ri:instagram-fill"></iconify-icon>
                   </a>
                 </li>
                 <li class="social">
-                  <a href="https://www.tiktok.com/@new.lux.events.ce?_t=ZM-8zwM5nujCzA&_r=1">
+                  <a target="_blank" href="https://www.tiktok.com/@new.lux.events.ce?_t=ZM-8zwM5nujCzA&_r=1">
                     <iconify-icon class="social-icon" icon="ri:tiktok-fill"></iconify-icon>
                   </a>
                 </li>
