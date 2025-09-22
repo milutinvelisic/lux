@@ -74,16 +74,6 @@ document.getElementById("footer").innerHTML = `
                   <use xlink:href="#phone"></use>
                 </svg>+381607171153
               </li>
-              <li class="phone text-capitalize mb-2 align-items-center">
-                <svg class="text-white me-1" width="18" height="18">
-                  <use xlink:href="#phone"></use>
-                </svg>+381649696520
-              </li>
-              <li class="phone text-capitalize mb-2 align-items-center">
-                <svg class="text-white me-1" width="18" height="18">
-                  <use xlink:href="#phone"></use>
-                </svg>+381607171153
-              </li>
               <li class="email mb-2 align-items-center">
                 <svg class="text-white me-1" width="18" height="18">
                   <use xlink:href="#email"></use>
