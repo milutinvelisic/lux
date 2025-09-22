@@ -1,5 +1,5 @@
 document.getElementById("footer").innerHTML = `
-    <div class="container-lg padding-medium text-white">
+    <div class="container-lg padding-small text-white">
       <div class="row ">
         <div class="col-lg-4 my-4 ">
           <div class="footer-menu ">
@@ -7,10 +7,6 @@ document.getElementById("footer").innerHTML = `
               <img src="images/logo-futer.png" class="logo img-fluid">
             </a>
             <p class="text-white mt-4">Mesto gde svaki trenutak postaje uspomena.
-            </p>
-            <ul class="info list-unstyled mt-4">
-
-            </ul>
             <div class="social-links mt-4">
               <ul class="d-flex  list-unstyled gap-2 m-0">
                 <li class="social">
@@ -30,9 +26,10 @@ document.getElementById("footer").innerHTML = `
                 </li>
               </ul>
             </div>
+            </p>
           </div>
         </div>
-        <div class="col-lg-2 my-4 ">
+        <div class="col-lg-4 my-4 ">
           <div class="footer-menu">
             <h6 class="text-uppercase text-white fw-bold  mb-4">Izdvajamo</h6>
             <ul class="menu-list list-unstyled">
@@ -54,8 +51,8 @@ document.getElementById("footer").innerHTML = `
             </ul>
           </div>
         </div>
-        <div class="col-lg-2 my-4 ">
-          <div class="footer-menu">
+        <div class="col-lg-4 my-4 ">
+          <div class="footer-menu footer-menu-center">
             <h6 class="text-uppercase text-white fw-bold  mb-4">Kontakt</h6>
             <ul class="info list-unstyled mt-4">
               <li class="clock text-capitalize mb-2 align-items-center">

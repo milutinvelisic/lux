@@ -365,6 +365,24 @@ body.chocolat-open #header {
   position: static !important;
 }
 
+/* .footer-menu-center {
+  text-align: center;
+} */
+
+.footer-menu {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media only screen and (max-width: 1300px) {
   .menu-section-image {
     display: none;
@@ -415,9 +433,7 @@ body.chocolat-open #header {
     text-align: center !important;
   }
 
-  .footer-menu {
-    text-align: center;
-  }
+  
 }
 
 @media only screen and (max-width: 364px) {
