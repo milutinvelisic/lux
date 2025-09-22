@@ -420,7 +420,7 @@ body.chocolat-open #header {
   }
 }
 
-@media only screen and (max-width: 349px) {
+@media only screen and (max-width: 364px) {
   .navbar-brand {
     width: 180px !important;
   }
