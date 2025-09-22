@@ -361,6 +361,10 @@
   color: #ffffff;
 }
 
+body.chocolat-open #header {
+  position: static !important;
+}
+
 @media only screen and (max-width: 1300px) {
   .menu-section-image {
     display: none;
