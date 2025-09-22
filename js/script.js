@@ -264,3 +264,15 @@ if (window.location.pathname.includes("deluxmenusvadba.html")) {
       .join("");
   }
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const video = document.querySelector(".slider-video");
+
+  if (video) {
+    video.muted = true; // required for autoplay
+    video.play().catch(err => {
+      console.log("Autoplay prevented:", err);
+    });
+  }
+});

@@ -15,12 +15,12 @@ document.getElementById("footer").innerHTML = `
                   </a>
                 </li>
                 <li class="social">
-                  <a href="#">
+                  <a href="https://www.instagram.com/newluxeventscenter?igsh=MXpsM2s2dzRzeWwx">
                     <iconify-icon class="social-icon" icon="ri:instagram-fill"></iconify-icon>
                   </a>
                 </li>
                 <li class="social">
-                  <a href="#">
+                  <a href="https://www.tiktok.com/@new.lux.events.ce?_t=ZM-8zwM5nujCzA&_r=1">
                     <iconify-icon class="social-icon" icon="ri:tiktok-fill"></iconify-icon>
                   </a>
                 </li>
